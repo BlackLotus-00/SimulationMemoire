@@ -10,25 +10,25 @@ La gestion de la mémoire par pagination désigne l’organisation de l’ensemb
 
 **Le système propose un menu dont les fonctionnalités attendues sont :**
 
-*Charger un programme : création d’un nouveau programme définit par son nom et sa taille en registre et par sa liste des pages.
+*Charger un programme : création d’un nouveau programme définit par son nom et sa taille en registre et par sa liste des pages.*
 
-*Afficher les pages vides
+*Afficher les pages vides*
 
-*Afficher la lise des programmes
+*Afficher la lise des programmes*
 
-*Chercher un programme
+*Chercher un programme*
 
-*Afficher les programmes (avec affichage des pages occupées pour chaque programme)
+*Afficher les programmes (avec affichage des pages occupées pour chaque programme)*
 
-*Terminer l'exécution d'un programme
+*Terminer l'exécution d'un programme*
 
-*Afficher la mémoire centrale (état de mémoire)
+*Afficher la mémoire centrale (état de mémoire)*
 
-*Vider la mémoire : supprimer tous les programmes chargés
+*Vider la mémoire : supprimer tous les programmes chargés*
 
-*Quitter : sortir du programme et perdre l’état de la mémoire
+*Quitter : sortir du programme et perdre l’état de la mémoire*
 
-//Les structures de données utilisées
+//Les structures de données utilisées//
 
 L’implémentation est basée sur l’utilisation des listes chaînées. Une liste chainée est une structure de données dynamique qui représente un ensemble d’éléments de même taille et de même type. Chaque élément est défini par des variables et nécessairement une variable de type pointeur qui pointe vers l’élément suivant et le dernier élément a un pointeur nul.
 
